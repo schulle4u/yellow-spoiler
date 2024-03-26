@@ -18,7 +18,7 @@ Create a fenced code block and use `spoiler` as code language.
 
 Content file with hidden block of text:
 
-```
+````
 ---
 Title: Spoiler example
 ---
@@ -29,7 +29,7 @@ This text is hidden by default. If you can read this, you successfully clicked t
 ```
 
 More text is here. 
-```
+````
 
 ## Developer
 

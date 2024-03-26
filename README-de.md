@@ -18,7 +18,7 @@ Erstelle einen umschlossenen Code-Block und verwende `spoiler` als Sprach-Parame
 
 Inhaltsdatei mit verstecktem Textblock:
 
-```
+````
 ---
 Title: Spoiler-beispiel
 ---
@@ -29,7 +29,7 @@ Dieser Text ist standardmäßig ausgeblendet. Falls du ihn jetzt lesen kannst, h
 ```
 
 Hier kann weiterer Inhalt stehen. 
-```
+````
 
 ## Entwickler
 
