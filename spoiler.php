@@ -14,14 +14,14 @@ class YellowSpoiler {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if (substru($name, 0, 7)=="spoiler" && $type=="code") {
-            list($language, $summary, $class, $id) = $this->getSpoilerInformation($name);
+            list($language, $class, $id) = $this->getSpoilerInformation($name);
             if ($language=="spoiler" && !is_string_empty($text)) {
                 $output = "<div class=\"".htmlspecialchars($language)."\"";
                 if (!is_string_empty($id)) $output .= " id=\"".htmlspecialchars($id)."\"";
                 $output .= ">\n";
                 $output .= "<details>\n";
-                $output .= "<summary>".htmlspecialchars($summary)."</summary>\n";
-                $output .= $text;
+                $output .= "<summary>".htmlspecialchars($language)."</summary>\n";
+                $output .= $this->yellow->lookup->normaliseData($text, "html");
                 $output .= "</details>\n";
                 $output .= "</div>\n";
             }
