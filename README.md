@@ -12,24 +12,29 @@ Hide certain page elements.
 
 ## How to hide page elements
 
-Create a fenced code block and use `spoiler` as code language. 
+Create a fenced code block and use `spoiler` as code language. Use a custom notice block To get more formatting options. 
 
 ## Examples
 
-Content file with hidden block of text:
+Content file with hidden text, different methods:
 
-````
+~~~
 ---
 Title: Spoiler example
 ---
-Click on the symbol to show the hidden text. 
+Click on the button to show the hidden text. 
 
 ```spoiler
-This text is hidden by default. If you can read this, you successfully clicked the right symbol. You can put whatever you like here; text, links, images, even extension shortcuts are possible. 
+This text is hidden by default. If you can read this, you successfully clicked the right button. 
 ```
 
+! {.spoiler}
+! This test is also hidden.  
+! **Text formatting is supported.**
+! [Links and images too](https://datenstrom.se)
+
 More text is here. 
-````
+~~~
 
 ## Developer
 

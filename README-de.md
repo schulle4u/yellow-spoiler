@@ -12,24 +12,29 @@ Bestimmte Seitenelemente verstecken.
 
 ## Wie man Seiteninhalte versteckt
 
-Erstelle einen umschlossenen Code-Block und verwende `spoiler` als Sprach-Parameter. 
+Erstelle einen umschlossenen Code-Block und verwende `spoiler` als Sprach-Parameter. Für weitere Formatierungsmöglichkeiten kannst du einen Notizblock mit Spoiler-Klasse verwenden. 
 
 ## Beispiele
 
 Inhaltsdatei mit verstecktem Textblock:
 
-````
+~~~
 ---
-Title: Spoiler-beispiel
+Title: Spoiler example
 ---
-Klicke auf das Symbol zum Einblenden. 
+Click on the button to show the hidden text. 
 
 ```spoiler
-Dieser Text ist standardmäßig ausgeblendet. Falls du ihn jetzt lesen kannst, hast du das richtige Symbol geklickt. Du kannst beliebigen Inhalt einfügen; Text, Links, Bilder, sogar weitere Abkürzungen sind möglich. 
+This text is hidden by default. If you can read this, you successfully clicked the right button. 
 ```
 
-Hier kann weiterer Inhalt stehen. 
-````
+! {.spoiler}
+! This test is also hidden.  
+! **Text formatting is supported.**
+! [Links and images too](https://datenstrom.se)
+
+More text is here. 
+~~~
 
 ## Entwickler
 
