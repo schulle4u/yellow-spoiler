@@ -12,7 +12,7 @@ Bestimmte Seitenelemente verstecken.
 
 ## Wie man Seiteninhalte versteckt
 
-Erstelle einen umschlossenen Code-Block und verwende `spoiler` als Sprach-Parameter. Für weitere Formatierungsmöglichkeiten kannst du einen Notizblock mit Spoiler-Klasse verwenden. 
+Erstelle einen benutzerdefinierten notizblock und verwende `spoiler` als Klassenattribut. 
 
 ## Beispiele
 
@@ -24,12 +24,8 @@ Title: Spoiler example
 ---
 Click on the button to show the hidden text. 
 
-```spoiler
-This text is hidden by default. If you can read this, you successfully clicked the right button. 
-```
-
 ! {.spoiler}
-! This test is also hidden.  
+! This text is also hidden.  
 ! **Text formatting is supported.**
 ! [Links and images too](https://datenstrom.se)
 
