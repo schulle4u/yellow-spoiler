@@ -12,7 +12,7 @@ Hide certain page elements.
 
 ## How to hide page elements
 
-Create a custom notice block and use `spoiler` as class attribute. 
+Create a general block element and use `spoiler` as class attribute. 
 
 ## Examples
 
