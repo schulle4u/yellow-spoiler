@@ -12,7 +12,7 @@ Bestimmte Seitenelemente verstecken.
 
 ## Wie man Seiteninhalte versteckt
 
-Erstelle einen benutzerdefinierten notizblock und verwende `spoiler` als Klassenattribut. 
+Erstelle ein allgemeines Blockelement und verwende `spoiler` als Klassenattribut. 
 
 ## Beispiele
 
@@ -23,11 +23,11 @@ Inhaltsdatei mit verstecktem Textblock:
 Title: Spoiler-Beispiel
 SpoilerSummary: Zeig es mir!
 ---
-Klicke auf die Schaltfläche, um den versteckten Text anzuzeigen. 
+Klicke auf die SchaltflÃ¤che, um den versteckten Text anzuzeigen. 
 
 ! {.spoiler}
 ! Dieser Text ist versteckt.  
-! **Textformatierung wird unterstützt.**
+! **Textformatierung wird unterstÃ¼tzt.**
 ! [Links und Bilder ebenfalls](https://datenstrom.se)
 
 Hier ist weiterer Text. 
