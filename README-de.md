@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-# Spoiler 0.9.1
+# Spoiler 0.9.2
 
 Bestimmte Seitenelemente verstecken.
 
@@ -20,16 +20,17 @@ Inhaltsdatei mit verstecktem Textblock:
 
 ~~~
 ---
-Title: Spoiler example
+Title: Spoiler-Beispiel
+SpoilerSummary: Zeig es mir!
 ---
-Click on the button to show the hidden text. 
+Klicke auf die Schaltfläche, um den versteckten Text anzuzeigen. 
 
 ! {.spoiler}
-! This text is also hidden.  
-! **Text formatting is supported.**
-! [Links and images too](https://datenstrom.se)
+! Dieser Text ist versteckt.  
+! **Textformatierung wird unterstützt.**
+! [Links und Bilder ebenfalls](https://datenstrom.se)
 
-More text is here. 
+Hier ist weiterer Text. 
 ~~~
 
 ## Entwickler

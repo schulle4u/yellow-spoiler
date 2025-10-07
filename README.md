@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-# Spoiler 0.9.1
+# Spoiler 0.9.2
 
 Hide certain page elements.
 
@@ -21,6 +21,7 @@ Content file with hidden text:
 ~~~
 ---
 Title: Spoiler example
+SpoilerSummary: Show me!
 ---
 Click on the button to show the hidden text. 
 
