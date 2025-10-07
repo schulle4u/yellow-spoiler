@@ -15,8 +15,8 @@ class YellowSpoiler {
         $output = null;
         if ($name=="spoiler" && $type=="general") {
             $htmlAttributes = $this->yellow->lookup->getHtmlAttributes($attributes);
-            if ($this->yellow->page->isExisting("spoilerSummary")) {
-                $summary = htmlspecialchars($this->yellow->page->get("spoilerSummary"));
+            if ($page->isExisting("spoilerSummary")) {
+                $summary = htmlspecialchars($page->get("spoilerSummary"));
             } else {
                 $summary = htmlspecialchars(ucfirst($name));
             }
