@@ -8,6 +8,13 @@ class YellowSpoiler {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        $this->yellow->language->setDefaults(array(
+            "Language: en",
+            "SpoilerDefaultSummary: Spoiler",
+            "Language: de",
+            "SpoilerDefaultSummary: Spoiler",
+            "Language: sv",
+            "SpoilerDefaultSummary: Spoiler"));
     }
     
     // Handle page content element
@@ -16,9 +23,9 @@ class YellowSpoiler {
         if ($name=="spoiler" && $type=="general") {
             $htmlAttributes = $this->yellow->lookup->getHtmlAttributes($attributes);
             if ($page->isExisting("spoilerSummary")) {
-                $summary = htmlspecialchars($page->get("spoilerSummary"));
+                $summary = $page->get("spoilerSummary");
             } else {
-                $summary = htmlspecialchars(ucfirst($name));
+                $summary = $this->yellow->language->getText("SpoilerDefaultSummary");
             }
             $output = "<details$htmlAttributes>\n";
             $output .= "<summary>$summary</summary>\n";
