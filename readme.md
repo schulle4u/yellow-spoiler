@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Spoiler 0.9.2
 
-Hide certain page elements.
+Hide certain page elements. Developed by Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -56,6 +54,4 @@ SpoilerSummary: Tell me more!
 ! Something doesn't work as expected? Looking for more information? There's a good chance that your question has already been answered. If not, describe what you want to do and which problems you have. The Datenstrom community is a place to help each other. Where you can ask and answer questions. 
 ~~~
 
-## Developer
-
-Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

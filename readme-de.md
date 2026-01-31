@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Spoiler 0.9.2
 
-Bestimmte Seitenelemente verstecken.
+Bestimmte Seitenelemente verstecken. Entwickelt von Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -56,6 +54,4 @@ SpoilerSummary: Verrate mir mehr!
 ! Funktioniert etwas nicht wie erwartet? Suchst du weitere Informationen? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, beschreibe was du machen möchtest. Die Datenstrom-Netzgemeinschaft ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. 
 ~~~
 
-## Entwickler
-
-Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
