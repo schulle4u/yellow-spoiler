@@ -2,6 +2,8 @@
 
 Hide certain page elements. Developed by Steffen Schultz.
 
+**Note**: This extension is obsolete. You should use the official syntax for collapsible blocks in Yellow. 
+
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension

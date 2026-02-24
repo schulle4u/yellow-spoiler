@@ -2,6 +2,8 @@
 
 Bestimmte Seitenelemente verstecken. Entwickelt von Steffen Schultz.
 
+**Hinweis**: Diese Erweiterung ist nicht mehr aktuell. Du solltest die offizielle Syntax für klappbare Blöcke in Yellow verwenden.
+
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
